@@ -1,0 +1,37 @@
+.title{grid-area:auto}
+.tos{grid-area: auto;}
+.container{
+display: grid;
+flex-wrap: wrap;
+grid-template-columns: 1/1;
+}
+
+/* .tos{
+  width: 35%;
+  height: 35%;
+  display: flex;box-sizing: initial;
+} */
+
+.od{
+  width: 35%;
+  height: 35%;
+  display: flex;box-sizing: initial;
+}
+
+.eyez{
+  width: 35%;
+  height: 35%;
+  display: flex;box-sizing: initial;
+}
+
+.hill{
+  width: 35%;
+  height: 35%;
+  display: flex;box-sizing: initial;
+}
+
+.sin{
+  width: 35%;
+  height: 35%;
+  display: flex;box-sizing: initial;
+}
