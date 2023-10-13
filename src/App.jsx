@@ -9,6 +9,7 @@ import AfroBeats from "./components/AfroBeats";
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Bootstrap/Navbar";
 import Home from "./components/Home";
+import ApiCall from "./components/ApiCall";
 
 export const MusicData = createContext();
 function App() {
@@ -51,6 +52,7 @@ return (
       <div>
         <Navbar />
         <MusicData.Provider value = {[musicinfo, setMusicInfo]}>
+        <ApiCall />
           
         <Routes>
           <Route path="/" element={<Home />} />
